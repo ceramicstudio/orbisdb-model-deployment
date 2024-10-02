@@ -1,0 +1,22 @@
+{
+  "name": "orbisdb-model-creation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create-model": "node createModel.js"
+  },
+  "dependencies": {
+    "@useorbis/db-sdk": "0.0.33-alpha",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.1",
+    "ethers": "^5"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "prettier": "^3.3.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0"
+  }
+}
